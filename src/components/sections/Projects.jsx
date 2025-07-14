@@ -20,7 +20,7 @@ export const Projects = () => {
                 Online buying except for the payment part.
               </p>
               <div className="">
-                {["React", "Node.js", "MongoDB", "Railway"].map((tech, key) => (
+                {["React", "Node.js", "MongoDB"].map((tech, key) => (
                   <span
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition-all"
@@ -31,19 +31,19 @@ export const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-between items-center">
-                <a className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                <a
+                  href="https://book-store-frontend-eta-tawny.vercel.app/"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
                   View Project →{" "}
                 </a>
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-blue-500/30 hover:shadow">
               <h3 className="text-xl font-bold mb-2">Job Posting Website</h3>
-              <p className="text-gray-300 mb-4">
-                Mock up platform for buying books having the whole process of
-                Online buying except for the payment part.
-              </p>
+              <p className="text-gray-300 mb-4">Web Page for Viewing</p>
               <div className="">
-                {["React", "Node.js", "MongoDB", "Railway"].map((tech, key) => (
+                {["React", ".NET", "SqlServer"].map((tech, key) => (
                   <span
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition-all"
@@ -54,7 +54,10 @@ export const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-between items-center">
-                <a className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                <a
+                  href="https://job-post-front-end.vercel.app/"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
                   View Project →{" "}
                 </a>
               </div>
